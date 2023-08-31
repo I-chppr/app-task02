@@ -32,15 +32,7 @@ export const Navbar = () => {
 	const searchInput = (
 		<Input
 			aria-label="Search"
-			classNames={{
-				inputWrapper: "bg-default-100",
-				input: "text-sm",
-			}}
-			endContent={
-				<Kbd className="hidden lg:inline-block" keys={["command"]}>
-					K
-				</Kbd>
-			}
+			
 			labelPlacement="outside"
 			placeholder="Buscar"
 			startContent={
