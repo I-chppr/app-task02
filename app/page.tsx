@@ -27,7 +27,7 @@ export default function Home() {
 					isExternal
 					as={NextLink}
 					href={siteConfig.links.docs}
-					className={buttonStyles({ className: "bg-gradient-to-tr from-green-500 to-violet-500 text-white shadow-lg", radius: "full", variant: "shadow" })}
+					className={buttonStyles({ className: "bg-gradient-to-tr from-fuchsia-500 to-violet-500 text-white shadow-lg", radius: "full", variant: "shadow" })}
 				>
 					Registrarse
 				</Link>
