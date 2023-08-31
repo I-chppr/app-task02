@@ -11,14 +11,14 @@ export default function Home() {
 	return (
 		<section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
 			<div className="inline-block max-w-lg text-center justify-center">
-				<h1 className={title()}>Make&nbsp;</h1>
-				<h1 className={title({ color: "violet" })}>beautiful&nbsp;</h1>
+				<h1 className={title()}>Argen&nbsp;</h1>
+				<h1 className={title({ color: "violet" })}>Tasks&nbsp;</h1>
 				<br />
 				<h1 className={title()}>
-					websites regardless of your design experience.
+					Aplicación de listas de tareas
 				</h1>
 				<h2 className={subtitle({ class: "mt-4" })}>
-					Beautiful, fast and modern React UI library.
+					Argentina Programa
 				</h2>
 			</div>
 
@@ -27,9 +27,9 @@ export default function Home() {
 					isExternal
 					as={NextLink}
 					href={siteConfig.links.docs}
-					className={buttonStyles({ color: "primary", radius: "full", variant: "shadow" })}
+					className={buttonStyles({ className: "bg-gradient-to-tr from-green-500 to-violet-500 text-white shadow-lg", radius: "full", variant: "shadow" })}
 				>
-					Documentation
+					Registrarse
 				</Link>
 				<Link
 					isExternal
@@ -37,8 +37,7 @@ export default function Home() {
 					className={buttonStyles({ variant: "bordered", radius: "full" })}
 					href={siteConfig.links.github}
 				>
-					<GithubIcon size={20} />
-					GitHub
+					Iniciar sesión
 				</Link>
 			</div>
 
