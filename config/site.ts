@@ -10,8 +10,8 @@ export const siteConfig = {
 		},
 
     {
-      label: "About",
-      href: "/about",
+      label: "Registro",
+      href: "/registro",
     }
 	],
 

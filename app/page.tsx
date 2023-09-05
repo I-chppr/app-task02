@@ -26,7 +26,7 @@ export default function Home() {
 				<Link
 					isExternal
 					as={NextLink}
-					href="/about"
+					href="/registro"
 					target="_self"
 					className={buttonStyles({ className: "bg-gradient-to-tr from-fuchsia-500 to-violet-500 text-white shadow-lg", radius: "full", variant: "shadow" })}
 				>
@@ -36,7 +36,7 @@ export default function Home() {
 					isExternal
 					as={NextLink}
 					className={buttonStyles({ variant: "ghost", radius: "full" })}
-					href="/"  // redirigir al componente login
+					href="/login"  // redirigir al componente login
 					target="_self"
 				>
 					Iniciar sesión
