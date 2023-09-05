@@ -27,6 +27,7 @@ export default function Home() {
 					isExternal
 					as={NextLink}
 					href="/about"
+					target="_self"
 					className={buttonStyles({ className: "bg-gradient-to-tr from-fuchsia-500 to-violet-500 text-white shadow-lg", radius: "full", variant: "shadow" })}
 				>
 					Registrarse
