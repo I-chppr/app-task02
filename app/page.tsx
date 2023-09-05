@@ -12,7 +12,7 @@ export default function Home() {
 		<section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
 			<div className="inline-block max-w-lg text-center justify-center">
 				<h1 className={title()}>Argen&nbsp;</h1>
-				<h1 className={title({ color: "violet" })}>Tasks&nbsp;</h1>
+				<h1 className={title({ color: "violet" })}>Task&nbsp;</h1>
 				<br />
 				<h1 className={title()}>
 					Aplicación de listas de tareas
@@ -35,8 +35,9 @@ export default function Home() {
 				<Link
 					isExternal
 					as={NextLink}
-					className={buttonStyles({ variant: "bordered", radius: "full" })}
-					href={siteConfig.links.github}
+					className={buttonStyles({ variant: "ghost", radius: "full" })}
+					href="/"  // redirigir al componente login
+					target="_self"
 				>
 					Iniciar sesión
 				</Link>
