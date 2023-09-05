@@ -6,6 +6,7 @@ import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
 
+
 export default function Home() {
 	return (
 		<section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
@@ -25,7 +26,7 @@ export default function Home() {
 				<Link
 					isExternal
 					as={NextLink}
-					href={siteConfig.links.docs}
+					href="/about"
 					className={buttonStyles({ className: "bg-gradient-to-tr from-fuchsia-500 to-violet-500 text-white shadow-lg", radius: "full", variant: "shadow" })}
 				>
 					Registrarse
