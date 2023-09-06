@@ -7,6 +7,10 @@ import { Navbar } from "@/components/navbar";
 import { Link } from "@nextui-org/link";
 import clsx from "clsx";
 
+import { Chip } from "@nextui-org/chip";
+
+
+
 export const metadata: Metadata = {
 	title: {
 		default: siteConfig.name,
@@ -46,12 +50,15 @@ export default function RootLayout({
 						</main>
 						<footer className="w-full flex items-center justify-center py-3">
 							<Link
-								isExternal
+								
 								className="flex items-center gap-1 text-current"
 								href="/"
 								title=""
+								target="_self"
+								
 							>
-								<span className="text-default-600">Los bugeados</span>
+							<Chip color="secondary" variant="dot">Los bugeados</Chip>
+
 								
 							</Link>
 						</footer>
@@ -59,5 +66,7 @@ export default function RootLayout({
 				</Providers>
 			</body>
 		</html>
+
+		
 	);
 }

@@ -18,7 +18,7 @@ export default function Home() {
 					Aplicación de listas de tareas
 				</h1>
 				<h2 className={subtitle({ class: "mt-4" })}>
-					Argentina Programa
+					Argentina Programa 4.0
 				</h2>
 			</div>
 
